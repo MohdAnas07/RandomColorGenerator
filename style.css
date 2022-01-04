@@ -43,3 +43,10 @@ button:hover{
     box-shadow: 5px 5px 10px ;
 }
 
+footer{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    min-height: 10vh;
+    padding: 1rem;
+}

@@ -25,6 +25,7 @@ h1{
     color: #000;
     font-size: 1.8rem;
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 button{
@@ -36,8 +37,7 @@ button{
     background-color: aquamarine;
     transition: all .4s;
     font-size: 1rem;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 button:hover{
     background-color: beige;

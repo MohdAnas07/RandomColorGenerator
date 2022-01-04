@@ -11,6 +11,7 @@ main{
     align-items: center;
     text-align: center;
 }
+
 h1{
     padding: 1rem;
     color: #000;
@@ -49,4 +50,14 @@ footer{
     color: #fff;
     min-height: 10vh;
     padding: 1rem;
+}
+
+
+@media only screen and (max-width: 488px){
+    .container h1{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
 }

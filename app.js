@@ -1,6 +1,6 @@
 const body = document.body;
 const btn = document.querySelector('.container button');
-const heading = document.querySelector('.container h1');
+const heading = document.querySelector('.container span');
 
 
 function randomColor() {
@@ -14,5 +14,5 @@ btn.addEventListener("click", (e) => {
     const color = randomColor();
     // console.log(color);
     body.style.backgroundColor = color;
-    heading.textContent = `Current Color : ${color}`
+    heading.textContent = color;
 })

@@ -37,11 +37,12 @@ button{
     background-color: aquamarine;
     transition: all .4s;
     font-size: 1rem;
-    font-weight: bold;   
+    font-weight: bold; 
+    cursor: pointer;  
 }
 button:hover{
     background-color: beige;
-    box-shadow: 5px 5px 10px ;
+    box-shadow: 0px 0px 10px #000000fa ;
 }
 
 footer{
